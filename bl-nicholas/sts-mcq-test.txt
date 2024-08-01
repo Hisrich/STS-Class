@@ -9,3 +9,25 @@
 9. c
 10. a
 11. d
+
+3. Git is a tool used by developers to store their code and serves as a memory for their work. It is important because it helps to recover lost work.
+
+4. git init - use this command to initialize git on your device
+
+mkdir backend-project - this comand is used to create the repository
+
+cd backend-project - this command is used to change the directory to the new repository created
+
+touch new-file.txt - this command is used to create a file in the repository
+
+git add . - this command is used to save all changes made
+
+git commit -m "New file created" - this command is used to commit the new changes made and add a comment to explain the changes made
+
+git log - this is used to display the changes you have saved to confirm you have successfully saved your work
+
+git remote add origin https://github.com/username/repo-name - this command is used to link your work to your Github account
+
+git push -u origin master - this command is used to set the master repository on Github for your work to be saved to 
+
+git push - this command is used to export your work to your Github account and be saved there
